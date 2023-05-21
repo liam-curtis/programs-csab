@@ -132,7 +132,8 @@ public class Pd7WilliamCurtisMicroFBDBExtension
       return values;
    } //parseLineDouble
    
-   
+   //preconditions: namesList is initialized
+   //postconditions: returns a randon string of five random lower case letters
    public static String randomName(Map<String, Boolean> namesList) {
       String[] letters = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
       String username = "";
